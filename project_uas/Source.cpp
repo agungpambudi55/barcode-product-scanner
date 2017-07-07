@@ -3,7 +3,6 @@
 	Agung Pambudi <agung.pambudi5595@gmail.com>
 	Khusnul Danny Rahayu <khusnuldrahayu@gmail.com>
  */
-
  #include <stdlib.h>  
  #include <opencv2/highgui/highgui.hpp>  
  #include <opencv2/imgproc/imgproc.hpp>  
@@ -34,6 +33,61 @@
 		  cout << "Tanggal Kadaluarsa	= -" << endl;
 		  cout << "Nama Produsen		= PT Tanshia Customer Products" << endl;
 		  cout << "Tempat Produksi		= Jakarta - Indonesia" << endl;
+	   }else if(data == "8997209320188"){
+		  system("cls");
+		  cout << "Barcode			= " << data << endl;
+		  cout << "Nama Barang		= Eksotea Original" << endl;
+		  cout << "Merk			= Original Taste" << endl;
+		  cout << "Berat			= 180 ml" << endl;
+		  cout << "Tanggal Produksi	= -" << endl;
+		  cout << "Tanggal Kadaluarsa	= Maret 2018" << endl;
+		  cout << "Nama Produsen		= PT Startfood Jaya Prima" << endl;
+		  cout << "Tempat Produksi		= Kudus - Indonesia" << endl;
+		  cout << "Harga			= Rp. 2.000,00 -" << endl;
+	   }else if(data == "8992772315128"){
+		  system("cls");
+		  cout << "Barcode			= " << data << endl;
+		  cout << "Nama Barang		= Soffell Botol Kulit Jeruk" << endl;
+		  cout << "Merk			= Soffell" << endl;
+		  cout << "Berat			= 80 Gr" << endl;
+		  cout << "Tanggal Produksi	= -" << endl;
+		  cout << "Tanggal Kadaluarsa	= November 2019" << endl;
+		  cout << "Nama Produsen		= PT Herlina Indah" << endl;
+		  cout << "Tempat Produksi		= Jakarta - Indonesia" << endl;
+		  cout << "Harga			= Rp. 17.000,00 -" << endl;
+	   }else if(data == "8993482005057"){
+		  system("cls");
+		  cout << "Barcode			= " << data << endl;
+		  cout << "Nama Barang		= Kapur Tulis Bebas Debu Berwarna" << endl;
+		  cout << "Merk			= Sarjana" << endl;
+		  cout << "Isi			= 50 Batang" << endl;
+		  cout << "Tanggal Produksi	= -" << endl;
+		  cout << "Tanggal Kadaluarsa	= -" << endl;
+		  cout << "Nama Produsen		= PT Indoresco" << endl;
+		  cout << "Tempat Produksi		= Bogor - Indonesia" << endl;
+		  cout << "Harga			= Rp. 20.000,00 -" << endl;
+	   }else if(data == "8992870110144"){
+		  system("cls");
+		  cout << "Barcode			= " << data << endl;
+		  cout << "Nama Barang		= Salonpasgel" << endl;
+		  cout << "Merk			= Salonpas" << endl;
+		  cout << "Berat			= Netto 15 Gr" << endl;
+		  cout << "Tanggal Produksi	= -" << endl;
+		  cout << "Tanggal Kadaluarsa	= April 2020" << endl;
+		  cout << "Nama Produsen		= PT Hisamitsu Pharma Indonesia" << endl;
+		  cout << "Tempat Produksi		= Sidoarjo - Indonesia" << endl;
+		  cout << "Harga			= Rp. 15.000,00 -" << endl;
+	   }else if(data == "7622210609359"){
+		  system("cls");
+		  cout << "Barcode			= " << data << endl;
+		  cout << "Nama Barang		= Belvita Breakfast Susu dan Sereal" << endl;
+		  cout << "Merk			= Belvita" << endl;
+		  cout << "Berat			= Netto 20 Gr" << endl;
+		  cout << "Tanggal Produksi	= 2 Januari 2017" << endl;
+		  cout << "Tanggal Kadaluarsa	= 3 November 2017" << endl;
+		  cout << "Nama Produsen		= PT Mondelez Indonesia" << endl;
+		  cout << "Tempat Produksi		= Jakarta - Indonesia" << endl;
+		  cout << "Harga			= Rp. 23.500,00 -" << endl;
 	   }else{
 		  system("cls");
 	      cout << "Not Found" << endl;
